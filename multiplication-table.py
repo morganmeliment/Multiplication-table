@@ -30,7 +30,7 @@ while y < height:
     y += 1
     rang = range(1,(width + 1))
     mult = [x * y for x in rang]
-    print(str(list(mult)))
+    print(map(mult, ''))
 
 
 
