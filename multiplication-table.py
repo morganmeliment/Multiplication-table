@@ -30,9 +30,6 @@ while y < height:
     y += 1
     rang = range(1,(width + 1))
     mult = [x * y for x in rang]
-    lists = " "
-    func = [lists + str(z) for z in mult]
-    print(lists)
 
 
 
