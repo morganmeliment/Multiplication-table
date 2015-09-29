@@ -30,7 +30,8 @@ while y < height:
     y += 1
     rang = range(1,(width + 1))
     mult = [x * y for x in rang]
-    print("".join(str(x) + " " for x in mult))
+    print("".join(" {0:>3}".format(x) for x in mult))
+    
 
 
 
