@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Morgan Meliment
-Credit: none
+Credit: http://stackoverflow.com/questions/5618878/how-to-convert-list-to-string
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -30,6 +30,7 @@ while y < height:
     y += 1
     rang = range(1,(width + 1))
     mult = [x * y for x in rang]
+    print("".join(str(x) + " " for x in mult))
 
 
 
