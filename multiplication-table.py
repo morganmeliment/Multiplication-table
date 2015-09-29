@@ -21,16 +21,16 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
-"""
+
 width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
 
 y = 0
 while y < height:
     y += 1
-"""
-rang = range(1,3)
-print(rang)
+    rang = range(1,(width + 1))
+    mult = [x * y for x in rang]
+    print(str(list(mult)))
 
 
 
